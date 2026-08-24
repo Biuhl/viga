@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-space-indigo: #2b2d42;
+  --color-lavender-grey: #8d99ae;
+  --color-platinum: #edf2f4;
+  --color-punch-red: #ef233c;
+  --color-flag-red: #d90429;
+}
+
+html {
+  scroll-behavior: smooth;
+}
