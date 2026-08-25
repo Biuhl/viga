@@ -66,7 +66,7 @@ export default function Home() {
 <section
   id="hero"
   className="min-h-screen flex flex-col justify-center items-center px-6 pt-20 relative bg-cover bg-center bg-no-repeat text-platinum overflow-hidden"
-  style={{ backgroundImage: `url('${process.env.NEXT_PUBLIC_BASE_PATH}/hero-bg.jpeg')` }}
+  style={{ backgroundImage: `url('${process.env.NEXT_PUBLIC_BASE_PATH}/public/hero-bg.jpeg')` }}
 >
   {/* OVERLAY COM OPACIDADE E GRADIENTE PARA LEITURA PERFEITA */}
   <div className="absolute inset-0 bg-space-indigo/10 backdrop-blur-[2px] bg-gradient-to-b from-space-indigo/90 via-space-indigo/80 to-space-indigo" />
@@ -167,7 +167,7 @@ export default function Home() {
 <section
   id="governanca"
   className="min-h-screen flex flex-col justify-center px-6 pt-20 relative bg-cover bg-center bg-no-repeat text-platinum overflow-hidden"
-  style={{ backgroundImage: `url('${process.env.NEXT_PUBLIC_BASE_PATH}/gov-bg.jpeg')` }}
+  style={{ backgroundImage: `url('${process.env.NEXT_PUBLIC_BASE_PATH}/public/gov-bg.jpeg')` }}
 >
   {/* OVERLAY TRANSLÚCIDO PARA LEITURA NÍTIDA */}
   <div className="absolute inset-0 bg-space-indigo/10 backdrop-blur-[2px] bg-gradient-to-b from-space-indigo/90 via-space-indigo/80 to-space-indigo" />
