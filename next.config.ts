@@ -1,11 +1,16 @@
 import type { NextConfig } from "next";
 
+const basePath = "/viga";
+
 const nextConfig: NextConfig = {
   output: "export",
-  basePath: "/viga",
+  basePath,
   trailingSlash: true,
   images: {
-    unoptimized: true, // Desliga a otimização de servidor que quebra no GitHub Pages
+    unoptimized: true,
+  },
+  env: {
+    NEXT_PUBLIC_BASE_PATH: basePath,
   },
 };
 
